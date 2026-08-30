@@ -1,3 +1,3 @@
-// The main entry point.
-def main(): Unit \ IO =
-    println("Hello World!")
+mod Pr13165Package {
+    pub def greet(): String = "Hello from pr13165-package!"
+}
